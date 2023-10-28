@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.namebox {
+    margin-top: 20px;
+    height: 100px;
+
+    width: 100%;
+    background-color: rgb(18, 174, 235);
+}
+
+.name {
+    color: white;
+    align-items: center;
+    font-size: 50px;
+    font-family: revert;
+    margin-left: 40% ;
+    padding-top: 16px;
+}
+
+
+.srch{
+    height: 70px;
+    margin-left: 30%;
+    width: 400px;
+    margin-top: 30px;
+    border: solid 1px rgb(18, 174, 235);
+    float: left;
+    font-family: Arial;
+    color: rgb(13, 0, 0);
+    font-size: 25px;
+    border-right: none;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px;
+}
+.btn {
+    height: 72px;
+    width: 150px;
+    margin-left: -5px;
+    margin-top: 30px;
+    background-color:rgb(18, 174, 235);
+    border-bottom-right-radius: 10px ;
+    color: white;
+    font-family: revert;
+    border: solid 1px  rgb(18, 174, 235);
+    font-size: 20px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch{
+    outline: none;
+}
+.stydel{
+    background-color: rgb(18, 174, 235);
+    
+    color: white;
+    margin-left: 42%;
+    margin-top: 20px;
+    border: solid 1px  rgb(18, 174, 235);
+border-top-left-radius: 15px;
+    height: 50px;
+    width: 100px;
+
+
+}
+.stydel:focus{
+    outline: none;
+}
+
+.styedit{
+    background-color: rgb(18, 174, 235);
+    
+    color: white;
+    height: 50px;
+    width: 100px;
+    margin-left: -3px;
+    border: solid 1px  rgb(18, 174, 235);
+border-bottom-right-radius: 15px;
+
+   
+}
+.styedit:focus{
+    outline: none;
+}
+.listItem{
+    color: #161615;
+    font-size: 30px;
+    margin-left: 42%;
+    margin-top: 35px;
+    font-family: revert;
+}
